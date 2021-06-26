@@ -1,0 +1,19 @@
+{
+    "name" : "delplop/dbbundle",
+    "description" : "Symfony database bundle to configure table prefix",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Del Plop",
+        "email" : "plop@phpblocnote.net",
+        "role": "Developer"
+    }],
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DelPlop\\DbBundle\\": "src/"
+        }
+    }
+}
